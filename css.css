@@ -1,0 +1,152 @@
+body {
+	background-color: rgb(255, 255, 255);
+}
+a:link   {   
+	text-decoration:none;
+	color: #0F1873;
+}
+td {
+	vertical-align: top;
+}
+p{
+	padding-inline-end: 5%;
+	padding-left: 10px;
+	line-height: 25px;
+}
+h3, h1{
+	padding-left: 10px;
+	margin: 10px;
+}
+.element{
+      border-radius: 5px;
+      box-shadow: none;
+      transition: 400ms ease;
+    }
+.element:hover{
+      box-shadow: 12px 12px 32px rgba(0, 0, 0, 0.1),
+      -5px -5px 15px #460030;
+    }
+.todo{
+	width:100%;
+}
+.tabla1{
+	width:100%;
+	border-spacing:0px;
+}
+.tabla2{
+	margin:auto;
+	width:99%;
+	background-color: #460030;
+	border-spacing:0px;
+}
+.tabla3{
+	width:100%;
+	background-color: rgb(232, 232, 232);
+	border-spacing:0px;
+}
+.columna1{
+	width:5%;
+}
+.columna2{
+	width:10%;
+	background-color: #460030;
+}
+
+.columna3{
+	width:80%;
+}
+.img-vta {
+	border-radius: 20px;
+	padding: 5px;
+	width: 300px;
+	height: 300px;
+}
+.precio{
+color: blue;
+font-style: italic;
+}
+* {
+    box-sizing: border-box;
+}
+.container {
+      display: flex;
+      flex-wrap: wrap;
+    }
+.image-column {
+      width: 300px;
+      margin: 0 auto;
+    }
+.text-column {
+      flex: 1;
+      padding: 20px;
+    }
+
+@media (max-width: 500px) {
+      .container {
+        flex-direction: column;
+      }
+
+      .image-column {
+        width: 100%;
+      }
+    }
+
+.a2024 {
+border-radius: 8px;
+width: 100%;
+height: auto;
+box-shadow: 0px 0px 10px #000;
+padding: 5px;
+}
+.a2025{
+padding: 10px;
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+gap: 32px;
+text-align: center;
+}
+
+
+.whatsapp-button {
+    background-color: #25D366;
+    padding: 15px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.whatsapp-button:hover {
+    background-color: #c0c0c0;
+}
+
+/* Para la alineación a la derecha (si no usas un framework CSS) */
+.float-right {
+    float: right;
+}
+
+.kreaft-cotiza {
+	background:linear-gradient(to bottom, #f9f9f9 5%, #e9e9e9 100%);
+	background-color:#f9f9f9;
+	border-radius:30px;
+	border:2px solid #dcdcdc;
+	display:inline-block;
+	cursor:pointer;
+	color:#666666;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:5px 20px;
+	text-decoration:none;
+}
+.kreaft-cotiza:hover {
+	background:linear-gradient(to bottom, #e9e9e9 5%, #f9f9f9 100%);
+	background-color:#e9e9e9;
+}
+.kreaft-cotiza:active {
+	position:relative;
+	top:1px;
+}
+
+.logo{ margin: auto;
+  display: block;}
